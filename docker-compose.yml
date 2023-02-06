@@ -7,10 +7,10 @@ services:
     container_name: db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 'admin'
+      MYSQL_ROOT_PASSWORD: 'root'
       MYSQL_DATABASE: 'ecommerce_t'
-      MYSQL_USER: 'app'
-      MYSQL_PASSWORD: 'admin'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: 'root'
     ports:
     - '3306:3306'
   backend:
